@@ -2,7 +2,7 @@
   "apps" : [
       {
         "name"      : "publish",
-        "script"    : "/var/nodejs/nodejsPublish/var/jenkins_home/jobs/nodejsPublish/workspace/app.js",
+        "script"    : "/var/nodejs/nodejsPublish/app.js",
         "env_production" : {
           "NODE_ENV": "production"
         }
