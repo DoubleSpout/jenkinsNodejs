@@ -1,0 +1,11 @@
+{
+  "apps" : [
+      {
+        "name"      : "publish",
+        "script"    : "/var/nodejs/jenkinsNodejs/app.js",
+        "env_production" : {
+          "NODE_ENV": "production"
+        }
+      }
+  ]
+}
