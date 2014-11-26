@@ -1,0 +1,42 @@
+{
+  "name": "sgHash",
+  "version": "0.0.1",
+  "main": "apphash.js",
+  "description": "apphash server",
+  "keywords": [
+    "app",
+    "apphash"
+  ],
+  "author": {
+    "name": "doublespout",
+    "email": "snoopyxdy@163.com"
+  },
+  "homepage": "https://github.com/DoubleSpout/wapp",
+  "bugs": {
+    "url": "https://github.com/DoubleSpout/wapp/issues",
+    "email": "snoopyxdy@163.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DoubleSpout/wapp.git"
+  },
+  "scripts": {
+    "test": "node ./test/test.js",
+    "start": "node server.js"
+  },
+  "os": [
+    "macos",
+    "linux",
+    "darwin",
+    "win32"
+  ],
+  "dependencies": {
+       "express":"4.10.2",
+       "redis":"0.12.1",
+       "redis-connection-pool":"0.0.5",
+       "iconv":"2.1.4"
+   },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
